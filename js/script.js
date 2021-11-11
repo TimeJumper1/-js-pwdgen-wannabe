@@ -8,6 +8,6 @@ console.log(userSurname)
 const userColor = prompt('inserisci il tuo colore preferito');
 console.log(userColor)
 
-const userMessage = 'la tua password super sicura è: ' + userName + userSurname + userColor +21
+const userMessage = 'la tua password super sicura è: ' + userName + userSurname + userColor +'21'
 
 document.getElementById('password').innerHTML = userMessage
